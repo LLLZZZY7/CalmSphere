@@ -11,6 +11,8 @@
       "dest": "public/index.php"
     }
   ],
+      "buildCommand": "composer install --no-dev --optimize-autoloader && npm ci && npm run build"
+,
   "env": {
     "APP_ENV": "local",
       "APP_NAME":"CalmSphere",
